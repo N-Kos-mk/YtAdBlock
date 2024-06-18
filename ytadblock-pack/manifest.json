@@ -1,0 +1,16 @@
+{
+    "name": "adblocker",
+    "description": "yt広告をぶっこわす。",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*"],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_idle",
+            "all_frames": false
+        }
+    ]
+}
