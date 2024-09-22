@@ -1,3 +1,7 @@
+// このコードは古いものです
+// content-v2.jsを使用してください
+
+/*
 function clicktry(doc, targets) {
     const obs = new MutationObserver(() => {
         let idc = doc.contentDocument || doc.contentWindow.document;
@@ -65,3 +69,4 @@ window.onload = function() {
     p = setInterval(main, 500);
     q = setInterval(removeAd, 500);
 }
+*/
